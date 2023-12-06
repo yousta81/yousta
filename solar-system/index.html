@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+	<title>🪐Solar System🪐</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="styles.css">
+
+
+</head>
+<body>
+<nav class="menu" id="navigation">
+	<div id="info"></div>
+  <ul role="tablist" aria-label="Navigation">
+    <li><button
+      role="tab"
+      aria-selected="true"
+      aria-controls="panel-1"
+      id="trueSize"
+      tabindex="0">Compare diameters</button></li>
+    <li><button
+      role="tab"
+      aria-selected="false"
+      aria-controls="panel-2"
+      id="trueDist"
+      tabindex="-1">x</button></li>
+
+  </ul>
+</nav>
+	
+		<h1 id="title" class="">Solar system</h1>
+		<div id="sun" class="animate-sun sun-bg"></div>
+		
+		<div id="planets-container">
+
+			<div class="planet-box">
+				<div class="planet-name animate-fade">			
+					<div class="tooltip">
+							<span><a href="#" name="mercury">Mercury</a></span>
+  						<span class="tooltiptext">Mercury, closest planet to the sun, reaches 430°C by day and -180°C at night.<br> Mercury has a unique spin-orbit resonance, completing about 3 rotations for every 2 orbits around the Sun.<br>Mercury's mass is about 0.055 times that of Earth, but it's diameter is approximately 0.3825 smaller.</span>
+					</div>
+				</div>
+				<div class="planet-atm">
+					<!--<div class="some-info">It is Mercury!</div>-->
+					<div id="mercury" class="planet animate-fade">
+					</div>
+			</div>
+			</div>
+			<div class="planet-box">
+				<div class="planet-name  animate-fade">
+					<div class="tooltip">
+							<span><a href="#" name="venus">Venus</a></span>
+  						<span class="tooltiptext">Venus has a scorching surface temperature of up to 467 degrees Celsius due to a thick atmosphere mostly of carbon dioxide.<br> Venus rotates slowly (243 Earth days) in a retrograde direction, unique among planets.</span>
+					</div>
+				</div>
+				<div class="planet-atm">
+					<div id="venus" class="planet animate-fade"></div>
+			</div>
+			</div>
+			
+			<div class="planet-box">
+				<div class="planet-name  animate-fade">
+					<div class="tooltip">
+							<span><a href="#" name="earth">Earth</a></span>
+  						<span class="tooltiptext">Earth is the only known planet to support life.<br> Planet has a dynamic and active geology, with processes like plate tectonics shaping its surface. <br>Earth's magnetosphere deflects and traps solar wind, preventing it from directly hitting the Earth's atmosphere. <br>The Moon plays a role in stabilizing Earth's axial tilt, which contributes to the planet's relatively stable climate over long periods.</span>
+					</div>
+				</div>
+				<div class="planet-atm">
+					<div id="earth" class="planet animate-fade"></div>
+			</div> 
+			</div>
+			<div class="planet-box">
+				<div class="planet-name  animate-fade">
+					<div class="tooltip">
+							<span><a href="#" name="mars">Mars</a></span>
+  						<span class="tooltiptext">"Red Planet's" reddish appearance is due to iron oxide (rust) on its surface. <br>Mars is home to the largest volcano in the solar system, Olympus Mons (22 kilometers high).<br>The average surface temperature on Mars around minus 62 degrees Celsius.<br>Mars has two small moons, Phobos and Deimos.  </span>
+					</div>
+				</div>	
+				<div class="planet-atm">
+					<div id="mars" class="planet animate-fade"></div>
+				</div>
+			</div>
+			<div class="planet-box">
+				<div class="planet-name  animate-fade">
+					<div class="tooltip">
+							<span><a href="#" name="jupiter">Jupiter</a></span>
+  						<span class="tooltiptext">Jupiter is a gas giant making up about 70% of the total mass of all the planets in our solar system. <br>It boasts a powerful magnetic field, over ten times stronger than any other planet in our solar system. <br>Jupiter's iconic Great Red Spot is a massive storm that has been raging for at least 350 years.</span>
+					</div>
+				</div>	
+				<div class="planet-atm">
+					<div id="jupiter" class="planet animate-fade"></div>
+			</div>
+			</div>
+			<div class="planet-box">
+				<div class="planet-name  animate-fade">
+					<div class="tooltip">
+							<span><a href="#" name="saturn">Saturn</a></span>
+  						<span class="tooltiptext">Saturn is renowned for its stunning ring system, which consists of countless icy particles and debris, that extend outward for thousands of kilometers.<br> Saturn is a gas giant predominantly composed of hydrogen and helium.<br> Saturn's fascinating notable feature is the hexagonal storm at its north pole. Each side of the hexagon is about 13,800 kilometers long.</span>
+					</div>
+				</div>	
+				<div class="planet-atm">
+					<div id="saturn" class="planet animate-fade"></div>
+			</div>
+			</div>
+			<div class="planet-box">
+				<div class="planet-name  animate-fade">
+					<div class="tooltip">
+							<span><a href="#" name="uranus">Uranus</a></span>
+  						<span class="tooltiptext">Uranus essentially rolling around the Sun on its side, with its axis of rotation almost parallel to its orbital plane.<br> The planet's atmosphere is composed mainly of hydrogen, helium, and methane, giving it a bluish-green hue, and it has a set of thin, faint rings surrounding it.<br> Uranus is considered the coldest planet in our solar system</span>
+					</div>
+				</div>	
+				<div class="planet-atm">
+					<div id="uranus" class="planet animate-fade"></div>
+				</div>
+			</div>
+			<div class="planet-box">
+				<div class="planet-name  animate-fade">
+					<div class="tooltip">
+							<span><a href="#" name="neptune">Neptune</a></span>
+  						<span class="tooltiptext">One year on Neptune is equivalent to about 165 Earth years.<br>Neptune was the first planet to be discovered through mathematical predictions.<br> Neptune has the fastest winds in the solar system, with speeds that can reach up to 1,930 kilometers per hour.</span>
+					</div>
+				</div>	
+				<div class="planet-atm">
+					<div id="neptune" class="planet animate-fade"></div>
+				</div>
+			</div>
+   	</div>
+
+	<!-- end of planets-container -->
+
+
+	<script type="text/javascript" src="planets.js"></script>
+</body>
+</html>
